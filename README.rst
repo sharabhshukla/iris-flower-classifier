@@ -15,12 +15,14 @@ Installation
 The recomended way to install this module is through `pip <https://pip.pypa.io/>`_.
 
 .. code-block:: bash
+
     pip install irisflower
 
 How To Use
 ------------------------
 
 .. code-block:: python
+
     # Import IrishFlowerClassifier class.
     from irisflower.classifier import IrisFlowerClassifier
 
