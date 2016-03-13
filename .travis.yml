@@ -13,7 +13,8 @@ cache:
 addons:
   apt:
     packages:
-    - liblapack-dev
+      - libblas-dev
+      - liblapack-dev
 
 before_install:
   - pip install -U pip setuptools wheel
