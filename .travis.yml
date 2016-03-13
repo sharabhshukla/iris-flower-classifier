@@ -5,15 +5,17 @@ sudo: false
 python:
   - "2.7"
 
+cache:
+  apt: true
+  directories:
+  - $HOME/.cache/pip
+
 addons:
   apt:
     packages:
       - libblas-dev
       - liblapack-dev
       - gfortran
-
-before_install:
-  - pip install -U pip setuptools wheel
 
 install:
   - travis_retry pip install -r requirements.txt
