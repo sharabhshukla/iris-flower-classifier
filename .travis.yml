@@ -21,8 +21,8 @@ before_install:
   - pip install -U pip setuptools wheel
 
 install:
-  - travis_retry pip install -r requirements.txt
-  - travis_retry pip install coveralls
+  - pip install -r requirements.txt
+  - pip install coveralls
 
 script:
   - nosetests
