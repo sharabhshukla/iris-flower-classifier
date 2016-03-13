@@ -26,6 +26,5 @@ install:
 
 script:
   - nosetests  --with-coverage --cover-package=irisflower
-  - coverage run --source=irisflower setup.py test
 
 after_success: coveralls
