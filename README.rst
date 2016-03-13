@@ -36,7 +36,13 @@ How To Use
 Running Test
 ------------------------
 
-To run the test, run the following command:
+If you already have `node <https://nose.readthedocs.org/>`_nose installed on your machine, simple run the following command:
+
+.. code-block:: bash
+
+    nosetests
+
+Or you can also run the built in Python unittest command like so:
 
 .. code-block:: bash
 
