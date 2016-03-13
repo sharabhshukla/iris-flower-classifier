@@ -1,1 +1,2 @@
+scipy>=0.9
 scikit-learn
