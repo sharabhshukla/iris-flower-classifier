@@ -10,6 +10,11 @@ cache:
   directories:
   - $HOME/.cache/pip
 
+addons:
+  apt:
+    packages:
+    - liblapack-dev
+
 before_install:
   - pip install -U pip setuptools wheel
 
