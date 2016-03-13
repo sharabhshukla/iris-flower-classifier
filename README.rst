@@ -4,6 +4,8 @@ Irish Flower Classifier
 
 .. image:: https://travis-ci.org/risan/iris-flower-classifier.svg?branch=master
     :target: https://travis-ci.org/risan/iris-flower-classifier
+.. image:: https://coveralls.io/repos/github/risan/iris-flower-classifier/badge.svg?branch=master
+    :target: https://coveralls.io/github/risan/iris-flower-classifier?branch=master
 .. image:: https://img.shields.io/pypi/v/irisflower.svg
     :target: https://pypi.python.org/pypi/irisflower/
 .. image:: https://img.shields.io/pypi/l/irisflower.svg
