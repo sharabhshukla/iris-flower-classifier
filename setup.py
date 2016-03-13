@@ -32,5 +32,8 @@ setup(
     ],
     keywords='machine learning classifier',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    install_requires=['scikit-learn'],
+    install_requires=[
+        'scypi>=0.9',
+        'scikit-learn'
+    ],
 )
