@@ -1,15 +1,9 @@
 language: python
 
-sudo: false
-
 python:
   - "2.7"
 
-cache:
-  directories:
-    - $HOME/.cache/pip
-
 install:
-  - pip install --user -r requirements.txt
+  - pip install -r requirements.txt
 
 script: nosetests
