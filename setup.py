@@ -10,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as readme_file:
 
 setup(
     name='irisflower',
-    version='1.0.1',
+    version='1.0.2',
     description='Iris flower species classifier',
     long_description=long_description,
     url='https://github.com/risan/iris-flower-classifier',
