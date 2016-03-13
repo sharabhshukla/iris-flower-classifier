@@ -5,6 +5,11 @@ sudo: false
 python:
   - "2.7"
 
+addons:
+  apt:
+    packages:
+      - libblas-dev
+
 before_install:
   - pip install -U pip setuptools wheel
 
