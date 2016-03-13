@@ -2,6 +2,10 @@
 Irish Flower Classifier
 ========================
 
+.. image:: https://travis-ci.org/risan/iris-flower-classifier.svg?branch=master :target: https://travis-ci.org/risan/iris-flower-classifier
+.. image:: https://img.shields.io/pypi/v/irisflower.svg :target: https://pypi.python.org/pypi/irisflower/
+.. image:: https://img.shields.io/pypi/l/irisflower.svg   :target: https://pypi.python.org/pypi/irisflower/
+
 Simple module for identiying Irish flower species based on it's sepal and petal dimensions.
 
 Dependencies
