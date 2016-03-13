@@ -22,5 +22,10 @@ before_install:
 
 install:
   - travis_retry pip install -r requirements.txt
+  - travis_retry pip install coveralls
 
-script: nosetests
+script:
+  - nosetests
+  - coverage run --source=irisflower setup.py test
+
+after_success: coveralls
