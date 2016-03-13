@@ -5,7 +5,10 @@ sudo: false
 python:
   - "2.7"
 
+before_install:
+  - pip install -U pip setuptools wheel
+
 install:
-  - pip install --user -r requirements.txt
+  - travis_retry pip install -r requirements.txt
 
 script: nosetests
