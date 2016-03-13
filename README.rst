@@ -7,7 +7,6 @@ Simple module for identiying Irish flower species based on it's sepal and petal 
 Dependencies
 ------------------------
 
-- `SciPy <http://www.scipy.org/>`_
 - `Scikit Learn <http://scikit-learn.org/>`_
 
 Installation
